@@ -11,7 +11,7 @@ namespace BigO
             //AddArray(array, 3);
             #endregion
             #region Task-2
-            string value = "Ali  Aliyev";
+            string value = "   d    asda    ";
             ClearSpaces(value);
             #endregion
             #region Task-3
@@ -47,15 +47,13 @@ namespace BigO
             int rightSpace = 0;
             for (int i = 0; i < value.Length; i++)
             {
-                if (value[i] == ' ' && i != value.Length - 1)
+                if (value[i] == ' ')
                 {
                     leftSpace++;
                     if (value[i + 1] != ' ')
                     {
-
                         break;
                     }
-
                 }
                 else
                 {
@@ -64,7 +62,7 @@ namespace BigO
             }
             for (int i = value.Length - 1; i >= 0; i--)
             {
-                if (value[i] == ' ' && i != 0)
+                if (value[i] == ' ')
                 {
                     rightSpace++;
                     if (value[i - 1] != ' ')
