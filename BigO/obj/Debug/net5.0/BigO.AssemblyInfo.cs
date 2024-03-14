@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BigO")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cc63118109a674298ae8dfdc65c167967d914ace")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9216f5c379f462417d9cb2dc9e70dbbd38a9c80f")]
 [assembly: System.Reflection.AssemblyProductAttribute("BigO")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BigO")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

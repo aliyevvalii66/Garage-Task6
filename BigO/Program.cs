@@ -11,7 +11,7 @@ namespace BigO
             //AddArray(array, 3);
             #endregion
             #region Task-2
-            string value = "   Ali Aliyev     ";
+            string value = "Ali  Aliyev";
             ClearSpaces(value);
             #endregion
             #region Task-3
@@ -52,9 +52,14 @@ namespace BigO
                     leftSpace++;
                     if (value[i + 1] != ' ')
                     {
+
                         break;
                     }
 
+                }
+                else
+                {
+                    break;
                 }
             }
             for (int i = value.Length - 1; i >= 0; i--)
@@ -67,14 +72,18 @@ namespace BigO
                         break;
                     }
                 }
+                else
+                {
+                    break;
+                }
             }
             for (int i = leftSpace; i < value.Length  - rightSpace; i++)
             {
                 temp += value[i];
             }
 
-            //Console.WriteLine(leftSpace);
-            //Console.WriteLine(rightSpace);
+            Console.WriteLine(leftSpace);
+            Console.WriteLine(rightSpace);
             Console.WriteLine(temp);
         }
         static void ChangeNegativeNumber(int[] array)
